@@ -11,12 +11,13 @@ public class LearningMap {
 		// Unique key and multiple values possible
 		Map<String,String>one=new HashMap<>();
 		one.put("Name", "Shashank");
+		one.put("Name", "Pankaj");
 		one.put("Middle Name", "VijayKumar");
 		one.put("Last Name", "Bharadiya");
 		one.put("Hobbies", "Reading");
 		one.put("Fav sport", "Badminton");
 		System.out.println(one);
-		System.out.println(one.get("Name"));
+		//System.out.println(one.get("Name"));
 		Set<String> aSET=one.keySet();
 		System.out.println(aSET);
 		for (String key : aSET) {
