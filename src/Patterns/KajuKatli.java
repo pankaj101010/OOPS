@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class KajuKatli {
 	private static Scanner inp;
-
+		//This file works according to user input and forces user to enter only odd input as kaju katli can be made by only odd inputs.
 	public static void main(String[] args) {
 		inp = new Scanner(System.in);
 		System.out.println("Please enter a odd number of your choice to design kaju Katli");
